@@ -27,7 +27,7 @@ public class Example {
             // Close the browser
             driver.quit();
         } catch (Exception e) {
-            e.printStackTrace();
+            System. out.println("An error occurred: " + e.getMessage());
         }
     }
 }
